@@ -66,9 +66,15 @@ class HypotheticalAssignmentTest {
     }
 
     @Test
-fun testForZeroArgumentConstructor() {
+    fun testForZeroArgumentConstructor() {
         val cons = clazz.constructors
         var foundZeroArgumentConstructor = false
-
+        for (constructor in cons) {
+            println(constructor)
+            if (constructor.parameterCount == 0) {
+                foundZeroArgumentConstructor = true
+            }
+        }
+        assertTrue("No zero argument constructor found.", foundZeroArgumentConstructor)
     }
 }

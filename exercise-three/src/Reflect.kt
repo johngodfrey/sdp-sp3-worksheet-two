@@ -4,6 +4,8 @@ class HypotheticalAssignment(var field1: Any?,
                              val field4: Any?) {
     // @JvmField val field5: Any? = "w" // causes field count and field privacy tests to fail
 
+    constructor(): this(null, null, null, null)
+
     private fun helper1(): Boolean {
         return true
     }
