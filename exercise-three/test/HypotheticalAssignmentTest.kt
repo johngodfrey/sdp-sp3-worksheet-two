@@ -1,5 +1,6 @@
 import org.junit.Assert.*
 import org.junit.Test
+import java.lang.reflect.Method
 import java.lang.reflect.Modifier
 
 class HypotheticalAssignmentTest {
@@ -45,10 +46,29 @@ class HypotheticalAssignmentTest {
     @Test
     fun testForMethodsWithThrowClause() {
         val throwingMethods = clazz.declaredMethods.filter { it.exceptionTypes.isNotEmpty() }
-        var message = StringBuilder("The following method(s) have throw clauses:\n")
-        for (method in throwingMethods) {
+        var message = constructMessage("The following method(s) have throw clauses:\n", throwingMethods)
+        assertTrue(message.toString(), throwingMethods.isEmpty())
+    }
+
+    @Test
+    fun testForMethodsReturningInt() {
+        val methodsReturningInt = clazz.declaredMethods.filter { it.returnType.name == "int" }
+        var message = constructMessage("The following method(s) return Int:\n", methodsReturningInt)
+        assertTrue(message, methodsReturningInt.isEmpty())
+    }
+
+    private fun constructMessage(initialDescription: String, failingMethods: Collection<Method>): String {
+        var message = StringBuilder(initialDescription)
+        for (method in failingMethods) {
             message.append(method.name + "\n")
         }
-        assertTrue(message.toString(), throwingMethods.isEmpty())
+        return message.toString()
+    }
+
+    @Test
+fun testForZeroArgumentConstructor() {
+        val cons = clazz.constructors
+        var foundZeroArgumentConstructor = false
+
     }
 }
