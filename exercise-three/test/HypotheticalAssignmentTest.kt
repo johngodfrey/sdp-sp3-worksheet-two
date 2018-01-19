@@ -3,7 +3,7 @@ import org.junit.Test
 import java.lang.reflect.Modifier
 
 class HypotheticalAssignmentTest {
-    private var assignment = HypotheticalAssignment(null, null, null, null)
+    private var assignment = HypotheticalAssignment(null, null, field4 = null)
     private val clazz = assignment.javaClass
 
     @Test
@@ -25,13 +25,14 @@ class HypotheticalAssignmentTest {
     @Test
     fun testForMutableListField() {
         var foundMutableListField = false
+        var mutableListFieldName = ""
         for (field in clazz.declaredFields) {
-            if (field.type == Class.forName("java.util.List")) {
-                println("field type is ${field.type}")
+            field.trySetAccessible()
+            if (field.get(assignment)?.javaClass == Class.forName("java.util.ArrayList")) {
                 foundMutableListField = true
+                mutableListFieldName = field.name
             }
         }
-        assertFalse(foundMutableListField)
-
+        assertFalse("Field $mutableListFieldName is a MutableList!", foundMutableListField)
     }
 }
