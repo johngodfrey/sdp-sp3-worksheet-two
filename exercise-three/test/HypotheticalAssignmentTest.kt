@@ -15,12 +15,23 @@ class HypotheticalAssignmentTest {
     fun testForNonPrivateFields() {
         var allFieldsPrivate = true
         for (field in clazz.declaredFields) {
-            println(Modifier.isPrivate(field.modifiers))
-            println(field)
             if (!Modifier.isPrivate(field.modifiers)) {
                 allFieldsPrivate = false
             }
         }
         assertTrue(allFieldsPrivate)
+    }
+
+    @Test
+    fun testForMutableListField() {
+        var foundMutableListField = false
+        for (field in clazz.declaredFields) {
+            if (field.type == Class.forName("java.util.List")) {
+                println("field type is ${field.type}")
+                foundMutableListField = true
+            }
+        }
+        assertFalse(foundMutableListField)
+
     }
 }
