@@ -41,4 +41,14 @@ class HypotheticalAssignmentTest {
         val privateMethods = clazz.declaredMethods.filter { Modifier.isPrivate(it.modifiers) }
         assertTrue(privateMethods.size > 1)
     }
+
+    @Test
+    fun testForMethodsWithThrowClause() {
+        val throwingMethods = clazz.declaredMethods.filter { it.exceptionTypes.isNotEmpty() }
+        var message = StringBuilder("The following method(s) have throw clauses:\n")
+        for (method in throwingMethods) {
+            message.append(method.name + "\n")
+        }
+        assertTrue(message.toString(), throwingMethods.isEmpty())
+    }
 }

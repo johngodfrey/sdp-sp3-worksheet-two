@@ -1,3 +1,5 @@
+import java.io.IOException
+
 class HypotheticalAssignment(var field1: Any?,
                              val field2: Any?,
                              var field3: Any? = null,//listOf("ghgh", "fjfj"),
@@ -8,7 +10,13 @@ class HypotheticalAssignment(var field1: Any?,
         true
     }
 
+    // @Throws(IOException::class)
     private fun helper2() {
         false
+    }
+
+    // @Throws(Exception::class)
+    fun standardMethod() {
+        return
     }
 }
