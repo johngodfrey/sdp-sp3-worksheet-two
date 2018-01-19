@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f4f163-e775-4907-bac0-f4a62a0ca2f6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise-two/src/ReflectionTest.kt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise-three/test/HypotheticalAssignmentTest.kt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/exercise-two/src/Reflect.kt" afterPath="$PROJECT_DIR$/exercise-two/src/Reflect.kt" />
+      <change beforePath="$PROJECT_DIR$/exercise-three/exercise-three.iml" afterPath="$PROJECT_DIR$/exercise-three/exercise-three.iml" />
+      <change beforePath="$PROJECT_DIR$/exercise-three/src/Reflect.kt" afterPath="$PROJECT_DIR$/exercise-three/src/Reflect.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,26 +20,23 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Reflect.kt" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/exercise-two/src/Reflect.kt">
+            <entry file="file://$PROJECT_DIR$/exercise-three/src/Reflect.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="502">
-                  <caret line="31" column="89" lean-forward="false" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
-                  <folding>
-                    <element signature="e#0#107#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="18">
+                  <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="18">
-                    <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-                    <folding />
-                  </first_editor>
-                  <second_editor />
+          <file leaf-file-name="HypotheticalAssignmentTest.kt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/exercise-three/test/HypotheticalAssignmentTest.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+                  <folding>
+                    <element signature="e#0#47#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -46,26 +44,16 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
                   <first_editor relative-caret-position="248">
-                    <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+                    <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
                     <folding />
                   </first_editor>
                   <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ReflectionTest.kt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/exercise-two/src/ReflectionTest.kt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="56" lean-forward="true" selection-start-line="0" selection-start-column="56" selection-end-line="0" selection-end-column="56" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -79,6 +67,7 @@
       <list>
         <option value="Class" />
         <option value="Kotlin File" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -95,11 +84,13 @@
       <list>
         <option value="$PROJECT_DIR$/exercise-one/src/Reflection.java" />
         <option value="$PROJECT_DIR$/exercise-one/src/Reflection.kt" />
-        <option value="$PROJECT_DIR$/exercise-three/src/Reflect.kt" />
         <option value="$PROJECT_DIR$/exercise-one/src/Reflect.kt" />
         <option value="$PROJECT_DIR$/exercise-one/src/HelloWorld.java" />
         <option value="$PROJECT_DIR$/exercise-two/src/ReflectionTest.kt" />
         <option value="$PROJECT_DIR$/exercise-two/src/Reflect.kt" />
+        <option value="$PROJECT_DIR$/exercise-three/test/HypotheticalAssignmentTest.java" />
+        <option value="$PROJECT_DIR$/exercise-three/test/HypotheticalAssignmentTest.kt" />
+        <option value="$PROJECT_DIR$/exercise-three/src/Reflect.kt" />
       </list>
     </option>
   </component>
@@ -110,8 +101,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1084" />
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="990" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -128,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,39 +131,28 @@
             <path>
               <item name="sdp-sp3-worksheet-two" type="b2602c69:ProjectViewProjectNode" />
               <item name="sdp-sp3-worksheet-two" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-two" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise-three" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sdp-sp3-worksheet-two" type="b2602c69:ProjectViewProjectNode" />
               <item name="sdp-sp3-worksheet-two" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-two" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise-three" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sdp-sp3-worksheet-two" type="b2602c69:ProjectViewProjectNode" />
               <item name="sdp-sp3-worksheet-two" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sdp-sp3-worksheet-two" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sdp-sp3-worksheet-two" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sdp-sp3-worksheet-two" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sdp-sp3-worksheet-two" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-two" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise-three" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,8 +162,17 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PoP-II" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../worksheet-one" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -196,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.ReflectKtTwo">
+  <component name="RunManager" selected="JUnit.HypotheticalAssignmentTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -209,20 +199,6 @@
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="exercise-one" />
-      <envs />
-    </configuration>
-    <configuration name="Reflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Reflection" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="java.lang.String" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -244,6 +220,26 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="HypotheticalAssignmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="exercise-three" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HypotheticalAssignmentTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -267,37 +263,37 @@
     </configuration>
     <configuration name="Reflect" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Reflect" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="java.lang.String" />
-      <option name="WORKING_DIRECTORY" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Reflect" />
+      <option name="WORKING_DIRECTORY" value="" />
       <module name="exercise-one" />
       <envs />
     </configuration>
     <configuration name="ReflectKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ReflectKt" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="HelloWorld" />
-      <option name="WORKING_DIRECTORY" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ReflectKt" />
+      <option name="WORKING_DIRECTORY" value="" />
       <module name="exercise-one" />
       <envs />
     </configuration>
     <configuration name="ReflectKtTwo" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ReflectKt" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="ReflectionTest thing thingy thingthing therooo" />
-      <option name="WORKING_DIRECTORY" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ReflectKt" />
+      <option name="WORKING_DIRECTORY" value="" />
       <module name="exercise-two" />
       <envs />
     </configuration>
@@ -342,19 +338,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Reflection" />
-      <item index="1" class="java.lang.String" itemvalue="Application.HelloWorld" />
-      <item index="2" class="java.lang.String" itemvalue="Kotlin.ReflectKt" />
-      <item index="3" class="java.lang.String" itemvalue="Kotlin.Reflect" />
-      <item index="4" class="java.lang.String" itemvalue="Kotlin.ReflectKtTwo" />
+      <item index="0" class="java.lang.String" itemvalue="Application.HelloWorld" />
+      <item index="1" class="java.lang.String" itemvalue="Kotlin.ReflectKt" />
+      <item index="2" class="java.lang.String" itemvalue="Kotlin.Reflect" />
+      <item index="3" class="java.lang.String" itemvalue="Kotlin.ReflectKtTwo" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HypotheticalAssignmentTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Kotlin.ReflectKtTwo" />
-        <item index="1" class="java.lang.String" itemvalue="Kotlin.ReflectKt" />
-        <item index="2" class="java.lang.String" itemvalue="Application.HelloWorld" />
-        <item index="3" class="java.lang.String" itemvalue="Kotlin.Reflect" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Reflection" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.HypotheticalAssignmentTest" />
+        <item index="1" class="java.lang.String" itemvalue="Kotlin.ReflectKtTwo" />
+        <item index="2" class="java.lang.String" itemvalue="Kotlin.ReflectKt" />
+        <item index="3" class="java.lang.String" itemvalue="Application.HelloWorld" />
+        <item index="4" class="java.lang.String" itemvalue="Kotlin.Reflect" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +377,8 @@
       <workItem from="1515436976771" duration="20000" />
       <workItem from="1516033098440" duration="1049000" />
       <workItem from="1516051207832" duration="1766000" />
-      <workItem from="1516302241166" duration="9369000" />
+      <workItem from="1516302241166" duration="10516000" />
+      <workItem from="1516365501830" duration="1476000" />
     </task>
     <task id="LOCAL-00001" summary="Ex01 done.">
       <created>1516308564871</created>
@@ -390,11 +387,41 @@
       <option name="project" value="LOCAL" />
       <updated>1516308564871</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ex02 done.">
+      <created>1516364320219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1516364320219</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 12h 49m 17s.xml">
+      <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 12h 50m 22s.xml">
+      <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 12h 50m 57s.xml">
+      <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 12h 52m 01s.xml">
+      <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 12h 52m 16s.xml">
+      <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 12h 52m 43s.xml">
+      <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 12h 52m 57s.xml">
+      <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17535000" />
+    <option name="totallyTimeSpent" value="20158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -437,17 +464,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ex01 done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex01 done." />
+    <MESSAGE value="Ex02 done." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex02 done." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exercise-one/src/Reflect.kt">
+    <entry file="file://$PROJECT_DIR$/exercise-three/src/Reflect.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -466,8 +494,25 @@
     <entry file="file://$PROJECT_DIR$/exercise-one/src/Reflect.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-one/src/Reflect.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -486,7 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -515,7 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,19 +587,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise-one/src/Reflection.kt" />
     <entry file="file://$PROJECT_DIR$/exercise-one/src/Reflection.java" />
-    <entry file="file://$PROJECT_DIR$/exercise-three/src/Reflect.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise-four/src/Reflect.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -568,7 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -576,10 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="41" lean-forward="false" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-          <folding>
-            <element signature="e#69#70#0" expanded="false" />
-            <element signature="e#120#121#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -587,17 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="56" lean-forward="true" selection-start-line="0" selection-start-column="56" selection-end-line="0" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-two/src/Reflect.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="31" column="89" lean-forward="false" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
-          <folding>
-            <element signature="e#0#107#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,10 +624,38 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="248">
-            <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-two/src/Reflect.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#107#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-three/test/HypotheticalAssignmentTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-three/src/Reflect.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
