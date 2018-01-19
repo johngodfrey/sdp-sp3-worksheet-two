@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2f4f163-e775-4907-bac0-f4a62a0ca2f6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/exercise-three/test/HypotheticalAssignmentTest.kt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/exercise-three/exercise-three.iml" afterPath="$PROJECT_DIR$/exercise-three/exercise-three.iml" />
       <change beforePath="$PROJECT_DIR$/exercise-three/src/Reflect.kt" afterPath="$PROJECT_DIR$/exercise-three/src/Reflect.kt" />
+      <change beforePath="$PROJECT_DIR$/exercise-three/test/HypotheticalAssignmentTest.kt" afterPath="$PROJECT_DIR$/exercise-three/test/HypotheticalAssignmentTest.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +21,8 @@
           <file leaf-file-name="Reflect.kt" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/exercise-three/src/Reflect.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18">
-                  <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+                <state relative-caret-position="36">
+                  <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -32,11 +31,21 @@
           <file leaf-file-name="HypotheticalAssignmentTest.kt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/exercise-three/test/HypotheticalAssignmentTest.kt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+                <state relative-caret-position="90">
+                  <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
                   <folding>
-                    <element signature="e#0#47#0" expanded="true" />
+                    <element signature="e#0#81#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Reflect.kt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/exercise-one/src/Reflect.kt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="684">
+                  <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -142,17 +151,22 @@
             <path>
               <item name="sdp-sp3-worksheet-two" type="b2602c69:ProjectViewProjectNode" />
               <item name="sdp-sp3-worksheet-two" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise-three" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sdp-sp3-worksheet-two" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sdp-sp3-worksheet-two" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,7 +392,8 @@
       <workItem from="1516033098440" duration="1049000" />
       <workItem from="1516051207832" duration="1766000" />
       <workItem from="1516302241166" duration="10516000" />
-      <workItem from="1516365501830" duration="1476000" />
+      <workItem from="1516365501830" duration="2041000" />
+      <workItem from="1516374961411" duration="1842000" />
     </task>
     <task id="LOCAL-00001" summary="Ex01 done.">
       <created>1516308564871</created>
@@ -394,34 +409,50 @@
       <option name="project" value="LOCAL" />
       <updated>1516364320219</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ex03 correctly tests for number of fields.">
+      <created>1516367513201</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1516367513201</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 12h 49m 17s.xml">
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 15h 24m 33s.xml">
       <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 12h 50m 22s.xml">
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 15h 25m 11s.xml">
       <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 12h 50m 57s.xml">
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 15h 25m 36s.xml">
       <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 12h 52m 01s.xml">
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 15h 26m 20s.xml">
       <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 12h 52m 16s.xml">
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 15h 27m 00s.xml">
       <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 12h 52m 43s.xml">
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 15h 28m 44s.xml">
       <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 12h 52m 57s.xml">
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 15h 40m 00s.xml">
+      <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 15h 42m 11s.xml">
+      <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 15h 45m 13s.xml">
+      <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HypotheticalAssignmentTest - 2018.01.19 at 15h 45m 56s.xml">
       <configuration name="HypotheticalAssignmentTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20158000" />
+    <option name="totallyTimeSpent" value="22565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -436,11 +467,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34143648" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34143648" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20260416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19479166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -465,13 +496,43 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ex01 done." />
     <MESSAGE value="Ex02 done." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ex02 done." />
+    <MESSAGE value="Ex03 correctly tests for number of fields." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ex03 correctly tests for number of fields." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/exercise-three/src/Reflect.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-three/test/HypotheticalAssignmentTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exercise-three/src/Reflect.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -599,13 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise-one/src/Reflect.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exercise-one/src/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -635,26 +689,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
           <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#107#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise-one/src/Reflect.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise-three/test/HypotheticalAssignmentTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="90">
+          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#0#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exercise-three/src/Reflect.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="36">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
