@@ -35,4 +35,10 @@ class HypotheticalAssignmentTest {
         }
         assertFalse("Field $mutableListFieldName is a MutableList!", foundMutableListField)
     }
+
+    @Test
+    fun testForAtLeast2PrivateHelperMethods() {
+        val privateMethods = clazz.declaredMethods.filter { Modifier.isPrivate(it.modifiers) }
+        assertTrue(privateMethods.size > 1)
+    }
 }
